@@ -43,3 +43,8 @@ for (const item of scrollContainer) {
         }
     });
 }
+
+
+function backToTop() {
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }

@@ -332,13 +332,13 @@ nav {
     color: #525252;
 }
 
+
+
 footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: #131921;
     color: #fff;
-    padding: 20px 60px;
+    
+    
 }
 footer span {
     font-size: 24px;
@@ -346,3 +346,55 @@ footer span {
     cursor: pointer;
     color: #be0b3b
 }
+
+.back-to-top {
+    display: flex;
+    background-color: rgb(71, 80, 90);
+    height: 60px;
+    width: auto;
+    margin-bottom: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-to-top:hover {
+    background-color:slategray ;
+    cursor: pointer;
+    
+}
+
+.footer-options ul {
+display: block;
+background-color: #009999;
+padding-left: 10px;
+font-size: minmax(large,25px);
+width: 250px;
+height: auto;
+list-style: none;
+}
+
+.footer-options ul li {
+    margin-bottom: 10px;
+}
+
+.footer-flex {
+    margin-left: 35px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-template-rows: repeat(4, minmax(100px, 1fr));
+    grid-gap: 10px;
+}
+
+.signature {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.signature img {
+    margin-left: 180px;
+
+}
+
