@@ -1,0 +1,188 @@
+#outer-layers {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.amazon-logo {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#signin-text {
+    font-size: 40px;
+}
+
+.signin-box {
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 10px;
+    border-color: gray;
+    height: 450px;
+    width: 400px;
+    padding-left: 36px;
+    padding-top: 12px;
+
+}
+
+
+.email-box {
+    font-size: larger;
+}
+
+.email-box input {
+    font-size: larger;
+    margin-top: 5px ;
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(108, 118, 118);
+    box-shadow: 1px 1px 1px darkgrey;
+}
+
+.signin-body button {
+    margin-top: 15px;
+    width: 350px;
+    height: 40px;
+    border-radius: 25px;
+    border-width: 0px;
+    color: black;
+    font-size: 16px;
+    border-color: #ffd633;
+    background-color: #ffd633;
+}
+
+button:hover {
+    background-color: #e6b800;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: #4d94ff;
+    outline-style: solid;
+    outline-width: 3px;
+    transition: 0.1s all ease;
+}
+
+.signin-body a {
+    text-decoration: underline;
+    color: #258e8e;
+}
+
+infooter a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.infooter {
+    margin: 25px 0 16px 0;
+    height: 30px;
+}
+
+#infooter-text {
+    font-size: 20px;
+    text-decoration: none;
+    color: #258e8e;
+
+}
+
+.infooter-border {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    width: 365px;
+    padding-bottom: 2px;
+    border-color: darkgrey;
+}
+
+#infooter-text:hover, 
+.signin-body a:hover, 
+.footer a:hover {
+    color: #b30000;
+    text-decoration: underline;
+}
+
+.help-section {
+        position: relative;
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+.line1 {
+        border-width: 1px 0 0 0;
+        width: 150px;
+        height: 5px;
+        border-style: solid;
+        border-color: darkgrey;
+        position: absolute;
+        left: 0%;
+        bottom: 60%;
+    }
+
+.line2 {
+        border-width: 1px 0 0 0;
+        width: 150px;
+        height: 5px;
+        border-style: solid;
+        border-color: darkgrey;
+        position: absolute;
+        left: 65%;
+        bottom: 60%;
+        
+    }
+
+* {
+    font-family: 'Helvetica Neue', sans-serif;
+    }
+
+.create-account {
+    display: flex;
+    justify-content: center;
+}
+.create-account button {
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+    border-width: 1px;
+    color: black;
+    font-size: 16px;
+    border-color: gainsboro;
+    background-color: white;margin-top: -25px;
+    }
+
+.create-account button:hover {
+    background-color: #f2f2f2;
+    }
+
+.footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    height: 120px;
+    }
+
+    .footer a {
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        color: #258e8e;
+    }
+
+.footer p {
+    text-align: center;
+    margin: 10px;
+    font-weight: 0;
+     font-size: 12px;
+     color: rgb(68, 68, 68);
+}
