@@ -420,8 +420,46 @@ list-style: none;
     border-width: 0.01in;
     
 }
+
+
 #amazon-logo {
     margin: 0 2% 0 2%;
+}
+
+.sign-in-prompt {
+    display: flex;
+    height: 165px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-style: solid;
+    border-top-width: 0.01in;
+    border-bottom-style: solid;
+    border-bottom-width: 0.01in;
+    border-color: gray;
+    margin: 25px 0;
+    padding: 30px 0;
+}
+
+.sign-in-prompt button {
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 15px 0 3px 0;
+    border-radius: 20px;
+    background-color: gold;
+    border-color: gold;
+    color: black;
+}
+
+.sign-in-prompt p {
+    font-size: small;
+}
+
+.sign-in-prompt a {
+    color: darkblue;
+    text-decoration: underline;
 }
 
 button {
