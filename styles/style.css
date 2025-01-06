@@ -21,13 +21,21 @@ a {
 }
 
 nav {
-
+    height: 55px;
     background: #131921;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px, 20px;
     color: #fff;
+}
+
+#nav-element:hover {
+    border: #dadada;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    padding: 10px;
 }
 
 .nav-country {
@@ -49,7 +57,7 @@ nav {
     align-items: center;
     margin-left: 15px;
     border-radius: 4px;
-    max-width: 1000px  ;
+    max-width: minmax(200px, 600px);
     color: gray;
     background: #fff;
     -webkit-border-radius: 4px;
